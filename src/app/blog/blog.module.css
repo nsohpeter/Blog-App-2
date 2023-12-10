@@ -1,0 +1,16 @@
+.container {}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: coral;
+    text-transform: capitalize;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+}

@@ -1,0 +1,128 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titleCat {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Catinput {
+    padding: 10px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.select {
+    width: 50%;
+    padding: 10px;
+    background-color: transparent;
+    /* border: 2px solid #bbb; */
+    border-radius: 3px;
+    color: #bbb;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* .select option {
+    width: 100%;
+    background-color: white;
+
+    padding: 10px;
+} */
+
+.editor {
+    display: flex;
+    gap: 25px;
+    /* height: 700px; */
+    position: relative;
+}
+
+.button,
+.addButton {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid var(--textColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.addButton {
+    border-color: #1a8917;
+}
+
+.add {
+    display: flex;
+    gap: 20px;
+    background-color: var(--bg);
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    left: 80px;
+}
+
+
+.inputTitle {
+    gap: 10px;
+}
+
+
+.firstInput {
+    width: 60%;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #bbb;
+    border-radius: 3px;
+    color: #bbb;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input,
+.textArea {
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #bbb;
+    border-radius: 3px;
+    color: #bbb;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 20%;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #53c28b;
+    border: none;
+    border-radius: 5px;
+    color: #eee;
+    font-weight: bold;
+}

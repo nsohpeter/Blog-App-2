@@ -1,0 +1,24 @@
+.CardList {
+    flex: 5;
+}
+
+
+.cardItem {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.title {
+    margin: 30px 0px;
+}
+
+@media(max-width:768px) {
+    .cardItem {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .CardList {}
+}

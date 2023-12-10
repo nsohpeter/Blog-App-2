@@ -1,0 +1,81 @@
+.container {}
+
+.title {
+    margin: 50px 0px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.singCategory {
+    display: flex;
+
+    align-items: center;
+    gap: 10px;
+    width: 15%;
+    height: 80px;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    gap: 10px;
+    text-transform: capitalize;
+
+}
+
+
+.singCategory.style {
+    background-color: #57c4ff31;
+}
+
+.singCategory.fashion {
+    background-color: #da85c731;
+}
+
+.singCategory.food {
+    background-color: #7fb88133;
+}
+
+.singCategory.travel {
+    background-color: #ff795736;
+}
+
+.singCategory.football {
+    background-color: #ffb04f45;
+}
+
+.singCategory.coding {
+    background-color: #5e4fff31;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+    .singCategory {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .singCategory {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .singCategory {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .singCategory {
+        width: 100%;
+    }
+}

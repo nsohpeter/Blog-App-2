@@ -1,0 +1,37 @@
+.menu {
+    flex: 2;
+    margin-top: 50px;
+}
+
+.subTitle {
+    color: gray;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.mainTitle {
+
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.items {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+@media(max-width:1024px) {
+    .menu {
+        display: none;
+    }
+}
